@@ -1,0 +1,4 @@
+# Heartburn
+Heartburn is a server for *everything*. An evolution on top of [Store](https://github.com/transitstatus/store), Heartburn is designed to fetch, store, and update data which is stored for further processing and/or serving via an API. It is primarily designed and utilitzed for the various systems powering the upcoming versions of [Amtraker](https://amtraker.com/), [Transitstat.us](https://transitstat.us/), and another project of mine.
+
+Store was a learning experience for me, which heavily shapes the spec for Heartburn. Most of the changes involved are related to how processes are scheduled and run, how those process communicate with the main process, and how errors are handled.
